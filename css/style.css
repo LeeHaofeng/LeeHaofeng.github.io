@@ -9649,3 +9649,71 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+/* 优化后的样式 - 从HTML内联样式移入 */
+.img.about-img {
+  width: 250px;
+  height: 365px;
+  background-image: url(../images/about.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.publication-item {
+  margin-bottom: 0.8rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.publication-item:last-child {
+  border-bottom: none;
+}
+
+.publication-authors {
+  font-weight: normal;
+  margin-bottom: 0.15rem;
+  line-height: 1.4;
+}
+
+.publication-title {
+  margin-bottom: 0.15rem;
+  line-height: 1.4;
+}
+
+.publication-title a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.publication-title a:hover {
+  text-decoration: underline;
+}
+
+.publication-venue {
+  color: #6c757d;
+  margin-bottom: 0.15rem;
+  line-height: 1.4;
+}
+
+.publication-award {
+  color: #dc3545;
+  font-weight: 600;
+  margin-bottom: 0.15rem;
+  line-height: 1.4;
+}
+
+.publication-links {
+  margin-top: 0.2rem;
+  line-height: 1.4;
+}
+
+.publication-links a {
+  color: #007bff;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+.publication-links a:hover {
+  text-decoration: underline;
+}
